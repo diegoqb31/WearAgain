@@ -114,7 +114,7 @@ width: 100%;
 }
 .product-image{
   border-radius: 15px;
- background-color: #ebebeb;
+ background-color: #00a6b9;
   transform: scale(1, 1);
   transition: transform 0.5s ease;
 }
@@ -130,7 +130,7 @@ width: 100%;
 
 .hero-banner-container{
   padding: 100px 40px;
-  background-color: #dcdcdc;
+  background-color: #00a6b9;
   border-radius: 15px;
   position: relative;
   height: 500px;
@@ -212,7 +212,7 @@ text-align: end;
 }
 .footer-banner-container{
   padding: 100px 40px;
-  background-color: #A8DADC;
+  background-color: #00a6b9;
   border-radius: 15px;
   position: relative;
   height: 400px;
@@ -455,7 +455,7 @@ padding: 30px 65px;
   background-color:#A8DADC;
 }
 .reviews{
-  color: #A8DADC;
+  color: #118185;
   margin-top: 10px;
   display: flex;
   gap: 5px;
@@ -543,7 +543,7 @@ padding: 6px;
   font-size: 20px;
 }
 .quantity-desc .plus{
-  color: rgb(49, 168, 49);
+  color: rgb(67, 49, 168);
 
 }
 
@@ -586,7 +586,7 @@ margin-top: 160px;
 }
 
 .success .icon {
-   color: green;
+   color: rgb(128, 0, 0);
    font-size: 40px;
 }
 .success h2{
@@ -756,7 +756,7 @@ margin-top: 160px;
   height: 350px;
 }
 .success h2{
-  font-size: 17px;
+  font-family: 17px;
 }
 .btn-container{
   width: 300px;
