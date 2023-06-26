@@ -634,12 +634,7 @@ margin-top: 160px;
     height: 560px;
     margin-top: 80px;
   }
-  .footer-banner-image{
-    width: 77%;
-    left: 30%;
-    top: 6%;
-    height: 56%
-  }
+  
   .banner-desc .left h3{
     font-weight: 900;
     font-size: 50px;
@@ -762,4 +757,72 @@ margin-top: 160px;
   width: 300px;
   margin: auto;
 }
+}
+
+@media screen and (max-width: 1350px) {
+  /* CSS rules to be applied for screens smaller than 600px */
+  .footer-banner-image {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 1260px) {
+  /* CSS rules to be applied for screens smaller than 600px */
+  .hero-banner-image {
+    width: 400px;
+    height: 400px;
+    right: 10%;
+  }
+
+  .footer-banner-image {
+    width: 220px;
+    height: 220px;
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 1070px) {
+  /* CSS rules to be applied for screens smaller than 600px */
+  .hero-banner-image {
+    width: 300px;
+    height: 300px;
+    right: 10%;
+  }
+}
+
+@media screen and (max-width: 955px) {
+  /* CSS rules to be applied for screens smaller than 600px */
+  .hero-banner-image {
+    margin-top: 180px;
+    margin-right: 100px;
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .footer-banner-image {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  /* CSS rules to be applied for screens smaller than 600px */
+  .hero-banner-image {
+    margin-top: 200px;
+    margin-right: 100px;
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  /* CSS rules to be applied for screens smaller than 600px */
+  .hero-banner-image {
+    margin-top: 250px;
+    margin-right: 70px;
+    width: 200px;
+    height: 200px;
+  }
 }
