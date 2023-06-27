@@ -14,7 +14,7 @@ const HeroBanner = ({ heroBanner }) => {
         <div>
           
           <div className="desc">
-            <h5>Descripción</h5>
+            <h5>Eco Friendly</h5>
             <p>{heroBanner.desc}</p>
           </div>
         </div>
